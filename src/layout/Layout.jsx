@@ -20,11 +20,14 @@ const Layout = () => {
                   <Link to="/page-4">
                       page4
                   </Link>
+                  <Link to="/page-5">
+                      page5
+                  </Link>
                   
               </ul>
           </nav>
           <Outlet></Outlet>
-          
+
     </div>
   );
 };
