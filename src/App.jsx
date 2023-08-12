@@ -1,42 +1,57 @@
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import "./App.css";
+import React from "react";
+import Layout from "./layout/Layout";
+import { Children } from "react";
+import Home from "./pages/home/Home";
+import Page2 from "./pages/page-2/Page2";
+import Page5 from "./pages/page-5/Page5";
+import Page4 from "./pages/page-4/Page4";
+import Page3 from "./pages/page-3/Page3";
+import Page6 from "./pages/page-6/page6";
+import Nathing from "./pages/nathing/Nathing";
 
-import './App.css'
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        index:true,
+        element:<Home/> 
+      },
+      {
+        path: "page-2",
+        element:<Page2/>
+      },
+      {
+        path: "page-3",
+        element:<Page3/>
+      },
+      {
+        path: "page-4",
+        element:<Page4/>
+      },
+      {
+        path: "page-5",
+        element:<Page5/>
+      },
+      {
+        path: "page-6",
+        element:<Page6/>
+      },
+      {
+        path: "*",
+        element:<Nathing/>
+      }
+    ],
+  },
+]);
 
-import "./18n";
+const App = () => {
+  return <div>
+    <RouterProvider router={router}></RouterProvider>
+  </div>;
+};
 
-
-// icons
-import { AiOutlineMenu } from "react-icons/ai";
-import {BsFillArrowDownCircleFill} from "react-icons/bs"
-import { useTranslation } from 'react-i18next';
-import MyTranslation from "./components/MyTranslation";
-import Switcher from './components/Darkmode/Switcher';
-
-function App() {
-  
-// translations________________________
-  const { t, i18n } = useTranslation();
-  
-  
-// _________________________________
-  
-  
-  return (
-    <div className="dark:bg-[#000] h-screen dark:text-white duration-300">
-      <MyTranslation></MyTranslation>
-
-      <h1 className="text-3xl font-bold underline">
-        {t("test")}
-      </h1>
-
-      <button>{t("test2")}</button>
-      <div className='flex md:hidden duration-300'>
-        <AiOutlineMenu className="text-[90px] text-[blue]"></AiOutlineMenu>
-      </div>
-      <div>
-        <Switcher/>
-      </div>
-    </div>
-  );
-}
-
-export default App
+export default App;
