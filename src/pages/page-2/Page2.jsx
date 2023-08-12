@@ -3,7 +3,16 @@ import "./page2.css"
 
 const Page2 = () => {
   return (
-    <div>Page2</div>
+    <div>
+
+      <section className=" py-[20px]">
+        <div className="container">
+          <div>
+          
+          </div>
+        </div>
+        </section>
+    </div>
   )
 }
 

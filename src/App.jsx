@@ -2,7 +2,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import React from "react";
 import Layout from "./layout/Layout";
-import { Children } from "react";
 import Home from "./pages/home/Home";
 import Page2 from "./pages/page-2/Page2";
 import Page5 from "./pages/page-5/Page5";
@@ -17,41 +16,43 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        index:true,
-        element:<Home/> 
+        index: true,
+        element: <Home />,
       },
       {
         path: "page-2",
-        element:<Page2/>
+        element: <Page2 />,
       },
       {
         path: "page-3",
-        element:<Page3/>
+        element: <Page3 />,
       },
       {
         path: "page-4",
-        element:<Page4/>
+        element: <Page4 />,
       },
       {
         path: "page-5",
-        element:<Page5/>
+        element: <Page5 />,
       },
       {
         path: "page-6",
-        element:<Page6/>
+        element: <Page6 />,
       },
       {
         path: "*",
-        element:<Nathing/>
-      }
+        element: <Nathing />,
+      },
     ],
   },
 ]);
 
 const App = () => {
-  return <div>
-    <RouterProvider router={router}></RouterProvider>
-  </div>;
+  return (
+    <div>
+      <RouterProvider router={router}></RouterProvider>
+    </div>
+  );
 };
 
 export default App;
