@@ -42,6 +42,9 @@ const Layout = () => {
                     <Link to="/page-5">
                         {t("nav.l5")}
                     </Link>
+                    <Link to="/page-6">
+                        {t("nav.l6")}
+                    </Link>
                 </ul>
                 {/* menu */}
                 <div className="flex lg:hidden">
@@ -72,6 +75,9 @@ const Layout = () => {
                                 </Link>
                                 <Link to="/page-5">
                                     {t("nav.l5")}
+                                </Link>
+                                <Link to="/page-6">
+                                    {t("nav.l6")}
                                 </Link>
                             </ul>
                             <div className="flex flex-col gap-[15px]">
@@ -109,6 +115,10 @@ const Layout = () => {
             </nav>
             <Outlet></Outlet>
 
+            {/* footer */}
+            <footer>
+
+            </footer>
         </div>
     );
 };
