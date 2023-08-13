@@ -5,6 +5,7 @@ import logo from '../assets/layout/logo.png'
 import { useTranslation } from "react-i18next";
 import { AiOutlineSearch, AiOutlineMenu } from "react-icons/ai"
 import { BsTelephoneFill } from "react-icons/bs"
+import { BiLogoTelegram } from "react-icons/bi"
 import { GrClose } from "react-icons/gr"
 import MyTranslation from "../components/MyTranslation"
 import Switcher from "../components/Darkmode/Switcher"
@@ -19,7 +20,7 @@ const Layout = () => {
     return (
         <div>
             {/* navbar */}
-            <nav className="py-[28px] px-[20px] container flex items-center justify-between">
+            <nav className="py-[28px] container flex items-center justify-between">
                 {/* logo */}
                 <div>
                     <Link to="/">
@@ -116,8 +117,28 @@ const Layout = () => {
             <Outlet></Outlet>
 
             {/* footer */}
-            <footer>
-
+            <footer className="flex container justify-between gap-[100px]">
+                {/* 1 */}
+                <div>
+                    <div>
+                        <img src={logo} alt="" className="max-w-[180px]" />
+                    </div>
+                    <p className="opacity-50 text-[14px] mt-[54px]">{
+                        t("footer.t1")}</p>
+                    <p className="text-[#FEAD04] mt-[25px]">{
+                        t("footer.t2")}</p>
+                </div>
+                {/* 2 */}
+                <form action="#">
+                    <p>{
+                        t("footer.t3")}</p>
+                    <div className="border rounded flex justify-between">
+                        <input type="text" placeholder={t("footer.t4")} className="my-[14px]"/>
+                        <div className="bg-[#FEAD04] text-white">
+                            <BiLogoTelegram></BiLogoTelegram>
+                        </div>
+                    </div>
+                </form>
             </footer>
         </div>
     );
