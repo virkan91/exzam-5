@@ -3,9 +3,10 @@ import "./layout.css";
 import { Link, Outlet } from "react-router-dom";
 import logo from '../assets/layout/logo.png'
 import { useTranslation } from "react-i18next";
-import { AiOutlineSearch, AiOutlineMenu } from "react-icons/ai"
+import { AiOutlineSearch, AiOutlineMenu, AiFillInstagram } from "react-icons/ai"
 import { BsTelephoneFill } from "react-icons/bs"
-import { BiLogoTelegram } from "react-icons/bi"
+import { MdEmail } from "react-icons/md"
+import { BiLogoTelegram, BiLogoLinkedin, BiLogoYoutube } from "react-icons/bi"
 import { GrClose } from "react-icons/gr"
 import MyTranslation from "../components/MyTranslation"
 import Switcher from "../components/Darkmode/Switcher"
@@ -117,28 +118,93 @@ const Layout = () => {
             <Outlet></Outlet>
 
             {/* footer */}
-            <footer className="flex container justify-between gap-[100px]">
+            <footer className="flex container flex-wrap gap-[50px] mt-[80px]">
                 {/* 1 */}
-                <div>
+                <div className="max-w-[181px]">
                     <div>
                         <img src={logo} alt="" className="max-w-[180px]" />
                     </div>
-                    <p className="opacity-50 text-[14px] mt-[54px]">{
+                    <p className="opacity-50 text-[14px] mt-[14px]">{
                         t("footer.t1")}</p>
-                    <p className="text-[#FEAD04] mt-[25px]">{
+                    <p className="text-[#FEAD04] mt-[10px]">{
                         t("footer.t2")}</p>
                 </div>
                 {/* 2 */}
                 <form action="#">
-                    <p>{
+                    <p className="text-[18px] font-[700]">{
                         t("footer.t3")}</p>
-                    <div className="border rounded flex justify-between">
-                        <input type="text" placeholder={t("footer.t4")} className="my-[14px]"/>
-                        <div className="bg-[#FEAD04] text-white">
+                    <div className="border border-[#F1F1F1] rounded flex justify-between mt-[19px]">
+                        <input type="text" placeholder={t("footer.t4")} className="py-[14px] pl-[24px] outline-none border-none" />
+                        <div className="bg-[#FEAD04] text-white flex cursor-pointer items-center justify-center px-[15px] text-[20px]">
                             <BiLogoTelegram></BiLogoTelegram>
                         </div>
                     </div>
                 </form>
+                {/* ul 1 */}
+                <ul>
+                    <li className="font-[700] cursor-pointer">{
+                        t("footer.ul1.l1")}</li>
+                    <li className="mt-[18px] cursor-pointer">{
+                        t("footer.ul1.l2")}</li>
+                    <li className="mt-[15px] cursor-pointer">{
+                        t("footer.ul1.l3")}</li>
+                    <li className="mt-[15px] cursor-pointer">{
+                        t("footer.ul1.l4")}</li>
+                </ul>
+                {/* ul 2 */}
+                <ul>
+                    <li className="font-[700] cursor-pointer">{
+                        t("footer.ul2.l1")}</li>
+                    <li className="mt-[18px] cursor-pointer">{
+                        t("footer.ul2.l2")}</li>
+                    <li className="mt-[15px] cursor-pointer">{
+                        t("footer.ul2.l3")}</li>
+                    <li className="mt-[15px] cursor-pointer">{
+                        t("footer.ul2.l4")}</li>
+                </ul>
+                <div className="flex sm:flex-row flex-col gap-[20px]">
+                    <div>
+                        <p className="font-[700] text-[18px]">{
+                            t("footer.t5.t1")}</p>
+                        <p className="text-[13px] font-[600] mt-[18px]">{
+                            t("footer.t5.t2")}</p>
+                        <div className="flex gap-[5px] items-center mt-[8px]">
+                            <BsTelephoneFill className="text-[#FEAD04]"></BsTelephoneFill>
+                            <p>+38 (067) 822-85-58</p>
+                        </div>
+                        <p className="text-[13px] font-[600] mt-[18px]">{
+                            t("footer.t5.t3")}</p>
+                        <div className="flex gap-[5px] items-center mt-[8px]">
+                            <BsTelephoneFill className="text-[#FEAD04]"></BsTelephoneFill>
+                            <p>+7 (831) 288-93-74</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="flex gap-[10px] justify-center text-white">
+                            <div className="p-[7px] flex justify-center items-center bg-[#FEAD04] rounded-full cursor-pointer text-[12px]">
+                                <BiLogoLinkedin></BiLogoLinkedin>
+                            </div>
+                            <div className="p-[7px] flex justify-center items-center bg-[#FEAD04] rounded-full cursor-pointer text-[12px]">
+                                <BiLogoYoutube></BiLogoYoutube>
+                            </div>
+                            <div className="p-[7px] flex justify-center items-center bg-[#FEAD04] rounded-full cursor-pointer text-[12px]">
+                                <AiFillInstagram></AiFillInstagram>
+                            </div>
+                        </div>
+                        <p className="text-[14px] font-[700] mt-[5px]">E-mail</p>
+                        <div className="flex items-center gap-[3px]">
+                            <MdEmail className="text-[#FEAD04]"></MdEmail>
+                            <p>olis1@ukr.net</p>
+                        </div>
+                        <div className="flex items-center gap-[3px]">
+                            <MdEmail className="text-[#FEAD04]"></MdEmail>
+                            <p>info@olis.com.ua</p>
+                        </div>
+                        <p className="font-[700] text-[14px] mt-[7px]">{
+                            t("footer.t6")}</p>
+                        <p className="text-[14px]">с 8:00 - до 17:00</p>
+                    </div>
+                </div>
             </footer>
         </div>
     );
