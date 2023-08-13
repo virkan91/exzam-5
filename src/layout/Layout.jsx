@@ -118,7 +118,7 @@ const Layout = () => {
             <Outlet></Outlet>
 
             {/* footer */}
-            <footer className="flex container flex-wrap gap-[50px] mt-[80px]">
+            <footer className="flex container justify-between flex-wrap gap-[50px] mt-[80px]">
                 {/* 1 */}
                 <div className="max-w-[181px]">
                     <div>
