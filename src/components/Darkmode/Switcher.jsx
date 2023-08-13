@@ -20,7 +20,7 @@ function Switcher() {
           className="relative right-2"
           checked={darkSide}
           onChange={toggleDarkMode}
-          size={40}
+          size={30}
         />
       </div>
     </>
