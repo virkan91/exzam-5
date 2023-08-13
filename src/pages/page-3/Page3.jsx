@@ -1,29 +1,37 @@
-import React from 'react'
-import './page3.css'
-
-
+import React from "react";
+import "./page3.css";
 
 import olis from "../../assets/02-page/olis.png";
-import mask1 from "../../assets/03-page/mask1.png"
-
+import mask1 from "../../assets/03-page/mask1.png";
 
 const Page3 = () => {
   return (
     <div>
       <section>
         <div className="container">
-          <div className="text-center border-2 w-[40%] m-auto">
+          <div className="text-center  w-[40%] m-auto">
             <p>Главная / Комплексные решения</p>
             <h2 className="text-[50px] text-[#000] font-bold leading-[45px] mt-[10px]">
               Комплексные решения
             </h2>
           </div>
-          <div className="grid md:grid-cols-3">
-            <div className="bg_grid bg-auto bg-no-repeat bg-center">
-              {/* <div className="bg-[#FEAD04] text-[#FFF] w-[70%] border-2 leading-5 p-[2px_30px]">
-                <h2 className='text-[18px] font-bold'>Зерноочистительные комплексы</h2>
-              </div> */}
-              df
+          <div className="grid md:grid-cols-3 gap-10 py-[50px]">
+            <div className="bg_grid">
+              <div className="bg-[#FEAD04] text-[#FFF] w-[63%] relative top-[-92%] right-[2%] leading-5 p-[3px_30px]">
+                <h2 className="text-[18px] font-bold">
+                  Зерноочистительные комплексы
+                </h2>
+              </div>
+            </div>
+            <div className="bg_grid3">
+              <div className="bg-[#FEAD04] text-[#FFF] w-[63%] relative top-[-92%] right-[2%] leading-5 p-[12px_30px]">
+                <h2 className="text-[18px] font-bold">Крупозаводы</h2>
+              </div>
+            </div>
+            <div className="bg_grid2">
+              <div className="bg-[#FEAD04] text-[#FFF] w-[63%] relative top-[-92%] right-[2%] leading-5 p-[12px_30px]">
+                <h2 className="text-[18px] font-bold">Мельницы</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -51,6 +59,6 @@ const Page3 = () => {
       </section> */}
     </div>
   );
-}
+};
 
-export default Page3
+export default Page3;

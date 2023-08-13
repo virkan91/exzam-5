@@ -1,6 +1,21 @@
-.bg_grid{
-background-image: url(../../assets/03-page/mask1.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.bg_grid {
+  background-image: url(../../assets/03-page/mask1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 63px 0px;
+}
+.bg_grid2 {
+  background-image: url(../../assets/03-page/mask2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 63px 0px;
+}
+.bg_grid3 {
+  background-image: url(../../assets/03-page/mask3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 63px 0px;
 }
