@@ -7,7 +7,7 @@ import Page2 from "./pages/page-2/Page2";
 import Page5 from "./pages/page-5/Page5";
 import Page4 from "./pages/page-4/Page4";
 import Page3 from "./pages/page-3/Page3";
-import Page6 from "./pages/page-6/page6";
+import Page6 from "./pages/page-6/Page6";
 import Nathing from "./pages/nathing/Nathing";
 
 const router = createBrowserRouter([
