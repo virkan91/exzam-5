@@ -21,7 +21,7 @@ const Layout = () => {
     return (
         <div>
             {/* navbar */}
-            <nav className="py-[28px] container flex items-center justify-between">
+            <nav className="py-[28px] z-50 container flex items-center justify-between">
                 {/* logo */}
                 <div>
                     <Link to="/">

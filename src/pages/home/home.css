@@ -8,3 +8,29 @@
     writing-mode: vertical-rl;
     transform: scale(-1);
 }
+.aa {
+  background-image: url(../../assets/01-home/s1ab.png);
+}
+.bb {
+  background-image: url(../../assets/01-home/s1bbb.png);
+}
+.cc {
+  background-image: url(../../assets/01-home/s1cb.png);
+}
+.dd {
+  background-image: url(../../assets/01-home/s1db.png);
+}
+.ee {
+  background-image: url(../../assets/01-home/s1eb.png);
+}
+.ff {
+  background-image: url(../../assets/01-home/s1fb.png);
+}
+.aa, .bb, .cc, .dd, .ff, .ee {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.153);
+}
+.shs3 {
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
+}
