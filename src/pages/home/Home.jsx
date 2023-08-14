@@ -92,7 +92,7 @@ const Home = () => {
       <section className='mt-[88px] container'>
         <p className='lg:text-[50px] text-[30px] font-[700]'>{
           t("s1.t1")}</p>
-        <div className='grid lg:grid-cols-2 gap-[26px] pt-[30px]'>
+        <div className='grid lg:grid-cols-2 xl:grid-cols-3 gap-[26px] pt-[30px]'>
           {/* a */}
           <div className={`aa py-[70px] flex items-center relative pr-[200px]`}>
             <div className='bg-white p-[25px] flex items-center gap-[20px]'>
