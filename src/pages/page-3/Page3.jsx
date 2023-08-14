@@ -103,7 +103,7 @@ const Page3 = () => {
               <img src={imblue} alt="" />
             </div>
           </div>
-          <div className="sm:flex sm:flex-col md:flex md:flex-row gap-5 ">
+          <div className="sm:flex sm:flex-col md:flex md:flex-row gap-5 mt-[4git 0px] md:mt-0 ">
             <div className=" ">
               <img src={opar} alt="" />
             </div>

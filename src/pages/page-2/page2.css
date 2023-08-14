@@ -18,7 +18,8 @@ background-image: url(../../assets/02-page/bgsection.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-filter: brightness(60%);
+/* filter: brightness(60%);
+z-index: -1; */
 
 
 }

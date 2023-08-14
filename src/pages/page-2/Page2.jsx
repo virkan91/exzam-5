@@ -145,7 +145,7 @@ const Page2 = () => {
             <div>
               <img src={olis} alt="" />
             </div>
-            <form className="bg-[#FFFFFF] md:w-[45%] p-[40px_50px] w-full mt-[30px] md:mt-auto">
+            <form className="bg-[#FFFFFF] md:w-[45%] p-[40px_50px] w-full mt-[30px] md:mt-auto ">
               <h2 className="text-[32px] font-light	">Форма обратной связи</h2>
               <p>Заполните форму и мы свяжемся с вами</p>
               <div className="py-[25px] flex gap-6">
