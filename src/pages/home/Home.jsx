@@ -84,7 +84,7 @@ const Home = () => {
           </div>
         </div>
         {/* B */}
-        <div className='relative hidden lg:flex right-[-60px]'>
+        <div className='relative hidden lg:flex right-[-40px]'>
           <img src={hd01} alt="" className='h-[549px]' />
         </div>
       </section>
@@ -94,58 +94,58 @@ const Home = () => {
           t("s1.t1")}</p>
         <div className='grid lg:grid-cols-2 xl:grid-cols-3 gap-[26px] pt-[30px]'>
           {/* a */}
-          <div className={`aa py-[70px] flex items-center relative pr-[200px]`}>
-            <div className='bg-white p-[25px] flex items-center gap-[20px]'>
+          <div className={`aa py-[70px] flex items-center flex-col xl:flex-row relative`}>
+            <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1a} alt="" />
               <p>{
                 t("s1.a")}</p>
             </div>
-            <img src={s1aa} alt="" className='absolute right-[20px]' />
+            <img src={s1aa} alt="" className='xl:absolute w-[120px] xl:right-[20px]' />
           </div>
           {/* b */}
-          <div className={`bb py-[70px] flex items-center relative pr-[200px]`}>
-            <div className='bg-white p-[25px] flex items-center gap-[20px]'>
+          <div className={`bb py-[70px] flex items-center flex-col xl:flex-row relative`}>
+            <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1b} alt="" />
               <p>{
                 t("s1.b")}</p>
             </div>
-            <img src={s1bb} alt="" className='absolute right-[20px]' />
+            <img src={s1bb} alt="" className='xl:absolute w-[100px] xl:right-[20px]' />
           </div>
           {/* c */}
-          <div className={`bb py-[70px] flex items-center relative pr-[200px]`}>
-            <div className='bg-white p-[25px] flex items-center gap-[20px]'>
+          <div className={`aa py-[70px] flex items-center flex-col xl:flex-row relative`}>
+            <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1c} alt="" />
               <p>{
                 t("s1.c")}</p>
             </div>
-            <img src={s1cc} alt="" className='absolute right-[20px]' />
+            <img src={s1cc} alt="" className='xl:absolute w-[100px] xl:right-[20px]' />
           </div>
           {/* d */}
-          <div className={`dd py-[70px] flex items-center relative pr-[200px]`}>
-            <div className='bg-white p-[25px] flex items-center gap-[20px]'>
-              <img src={s1c} alt="" />
+          <div className={`dd py-[70px] flex items-center flex-col xl:flex-row relative`}>
+            <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
+              <img src={s1d} alt="" />
               <p>{
                 t("s1.d")}</p>
             </div>
-            <img src={s1dd} alt="" className='absolute right-[20px]' />
+            <img src={s1dd} alt="" className='xl:absolute w-[110px] xl:right-[20px]' />
           </div>
           {/* e */}
-          <div className={`dd py-[70px] flex items-center relative pr-[200px]`}>
-            <div className='bg-white p-[25px] flex items-center gap-[20px]'>
+          <div className={`ee py-[70px] flex items-center flex-col xl:flex-row relative`}>
+            <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1e} alt="" />
               <p>{
                 t("s1.e")}</p>
             </div>
-            <img src={s1ee} alt="" className='absolute right-[20px]' />
+            <img src={s1ee} alt="" className='xl:absolute w-[110px] xl:right-[20px]' />
           </div>
           {/* f */}
-          <div className={`dd py-[70px] flex items-center relative pr-[200px]`}>
-            <div className='bg-white p-[25px] flex items-center gap-[20px]'>
+          <div className={`ff py-[70px] flex items-center flex-col xl:flex-row relative`}>
+            <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1f} alt="" />
               <p>{
                 t("s1.f")}</p>
             </div>
-            <img src={s1ff} alt="" className='absolute right-[20px]' />
+            <img src={s1ff} alt="" className='xl:absolute w-[110px] xl:right-[20px]' />
           </div>
         </div>
       </section>
