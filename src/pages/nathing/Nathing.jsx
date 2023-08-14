@@ -11,7 +11,7 @@ const Nathing = () => {
       <ul className='flex flex-col gap-[10px] mt-[15px] list-disc'>
         <li>Вернуться при помощи кнопки браузера или по этой ссылке</li>
         <li>Проверить правильность написания адреса страницы (URL)</li>
-        <li>Перейти на главную страницу сайта</li>
+        <li>Перейти на главную страницу сайтов</li>
       </ul>
       <div className='bg-[#FEAD04] py-[14px] cursor-pointer text-center text-white font-[500] w-[350px] mt-[40px]'>
         На  главную
