@@ -103,7 +103,7 @@ const Home = () => {
             <img src={s1aa} alt="" className='xl:absolute w-[120px] xl:right-[20px]' />
           </div>
           {/* b */}
-          <div className={`aa py-[70px] flex items-center flex-col xl:flex-row relative`}>
+          <div className={`bb py-[70px] flex items-center flex-col xl:flex-row relative`}>
             <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1b} alt="" />
               <p>{
@@ -121,7 +121,7 @@ const Home = () => {
             <img src={s1cc} alt="" className='xl:absolute w-[100px] xl:right-[20px]' />
           </div>
           {/* d */}
-          <div className={`aa py-[70px] flex items-center flex-col xl:flex-row relative`}>
+          <div className={`dd py-[70px] flex items-center flex-col xl:flex-row relative`}>
             <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1d} alt="" />
               <p>{
@@ -130,7 +130,7 @@ const Home = () => {
             <img src={s1dd} alt="" className='xl:absolute w-[110px] xl:right-[20px]' />
           </div>
           {/* e */}
-          <div className={`aa py-[70px] flex items-center flex-col xl:flex-row relative`}>
+          <div className={`ee py-[70px] flex items-center flex-col xl:flex-row relative`}>
             <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1e} alt="" />
               <p>{
@@ -139,7 +139,7 @@ const Home = () => {
             <img src={s1ee} alt="" className='xl:absolute w-[110px] xl:right-[20px]' />
           </div>
           {/* f */}
-          <div className={`aa py-[70px] flex items-center flex-col xl:flex-row relative`}>
+          <div className={`ff py-[70px] flex items-center flex-col xl:flex-row relative`}>
             <div className='bg-white p-[25px] flex items-center xl:text-[16px] flex-col xl:flex-row font-[700] text-[24px] gap-[20px] xl:mr-[100px] w-full'>
               <img src={s1f} alt="" />
               <p>{
