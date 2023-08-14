@@ -155,9 +155,6 @@ const Page2 = () => {
               <div>
                 <input type="text" placeholder="Email" className="w-[100%]"/>
               </div>
-              <div className=' mt-[40px] bg-[#FEAD04] text-white py-[10px] max-w-[350px] text-center font-[700] cursor-pointer'>
-                Оставить заявку
-              </div>
             </form>
           </div>
         </div>
