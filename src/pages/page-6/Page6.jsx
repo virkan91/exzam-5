@@ -1,10 +1,17 @@
 import React from "react";
 import "./page6.css";
+import { useTranslation } from "react-i18next";
 
 import man from "../../assets/06-page/man.jpg";
 import olic from "../../assets/06-page/olic.png";
 
+import s4a from "../../assets/01-home/s4a.png";
+import s4b from "../../assets/01-home/s4b.png";
+import s4c from "../../assets/01-home/s4c.png";
+import s4d from "../../assets/01-home/s4d.png";
+
 const Page6 = () => {
+  const { t, i18n } = useTranslation();
   return (
     <div>
       <section className="bg-sec">
