@@ -14,7 +14,7 @@ const Nathing = () => {
         <li>Перейти на главную страницу сайта</li>
       </ul>
       <div className='bg-[#FEAD04] py-[14px] cursor-pointer text-center text-white font-[500] w-[350px] mt-[40px]'>
-        На главную
+        На  главную
       </div>
     </div>
   )
