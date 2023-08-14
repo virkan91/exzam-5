@@ -9,4 +9,13 @@
 }
 .sec2 p {
     margin-top: 8px;
+    font-size: 15px;
+}
+.bg_section{
+    background-image: url(../../assets/06-page/imuk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
 }

@@ -149,12 +149,12 @@ const Page6 = () => {
 
       <section className="py-[60px]">
         <div className="container">
-          <div className=" w-[33%] m-auto text-center">
-            <h2 className="text-[#444] text-[26px] font-bold">
+          <div className=" md:w-[33%] m-auto text-center w-full">
+            <h2 className="text-[#444] md:text-[26px] font-bold text-[20px] ">
               НАПРАВЛЕНИЯ ДЕЯТЕЛЬНОСТИ ООО "ОЛИС"
             </h2>
           </div>
-          <div className="sec2 flex py-[30px] gap-[10px]">
+          <div className="sec2 grid md:grid-cols-4 grid-cols-1 py-[30px] gap-[20px]">
             <div>
               <div className="flex items-center gap-2">
                 <svg
@@ -290,7 +290,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Технологическое оборудование для производства муки</p>
+                <p>Технологическое оборудование</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -302,7 +302,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Технологическое оборудование для производства крупы</p>
+                <p>Технологическое оборудование</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -403,6 +403,38 @@ const Page6 = () => {
                 <p>Сервисное обслуживание</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg_section">
+        <div className="container"></div>
+      </section>
+
+      <section className="mt-[88px] container">
+        <p className="lg:text-[50px] text-center text-[30px] font-[700]">
+          {t("s4.t1")}
+        </p>
+        <div className="mt-[20px] md:grid-cols-2 grid lg:grid-cols-4 justify-center gap-[40px] lg:gap-[100px]">
+          {/* a */}
+          <div className="flex flex-col items-center text-center">
+            <img src={s4a} alt="" />
+            <p className="mt-[20px]">{t("s4.a")}</p>
+          </div>
+          {/* b */}
+          <div className="flex flex-col items-center text-center">
+            <img src={s4b} alt="" />
+            <p className="mt-[20px]">{t("s4.b")}</p>
+          </div>
+          {/* c */}
+          <div className="flex flex-col items-center text-center">
+            <img src={s4c} alt="" />
+            <p className="mt-[20px]">{t("s4.c")}</p>
+          </div>
+          {/* d */}
+          <div className="flex flex-col items-center text-center">
+            <img src={s4d} alt="" />
+            <p className="mt-[20px]">{t("s4.d")}</p>
           </div>
         </div>
       </section>
