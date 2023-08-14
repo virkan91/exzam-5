@@ -2,7 +2,7 @@ import React from "react";
 import "./page6.css";
 
 import man from "../../assets/06-page/man.jpg";
-import olic from "../../assets/06-page/olic.png"
+import olic from "../../assets/06-page/olic.png";
 
 const Page6 = () => {
   return (
@@ -149,12 +149,12 @@ const Page6 = () => {
 
       <section className="py-[60px]">
         <div className="container">
-          <div className="border-2 w-[33%] m-auto text-center">
+          <div className=" w-[33%] m-auto text-center">
             <h2 className="text-[#444] text-[26px] font-bold">
               НАПРАВЛЕНИЯ ДЕЯТЕЛЬНОСТИ ООО "ОЛИС"
             </h2>
           </div>
-          <div className="grid md:grid-cols-4 grid-cols-1 py-[30px] gap-[10px]">
+          <div className="sec2 flex py-[30px] gap-[10px]">
             <div>
               <div className="flex items-center gap-2">
                 <svg
@@ -228,7 +228,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Крупоцеха по переработке кукурузы</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -240,7 +240,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Мельницы агрегатные</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -252,7 +252,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Мельницы сортового помола пшеницы</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -264,7 +264,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Зерноочистительное оборудование</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -276,69 +276,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
-              </div>
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="7"
-                  height="7"
-                  viewBox="0 0 7 7"
-                  fill="none"
-                >
-                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
-                </svg>
-                <p>Зерноочистительные комплексы</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="7"
-                  height="7"
-                  viewBox="0 0 7 7"
-                  fill="none"
-                >
-                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
-                </svg>
-                <p>Зерноочистительные комплексы</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="7"
-                  height="7"
-                  viewBox="0 0 7 7"
-                  fill="none"
-                >
-                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
-                </svg>
-                <p>Зерноочистительные комплексы</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="7"
-                  height="7"
-                  viewBox="0 0 7 7"
-                  fill="none"
-                >
-                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
-                </svg>
-                <p>Зерноочистительные комплексы</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="7"
-                  height="7"
-                  viewBox="0 0 7 7"
-                  fill="none"
-                >
-                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
-                </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Транспортное оборудование</p>
               </div>
             </div>
             <div>
@@ -352,7 +290,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Технологическое оборудование для производства муки</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -364,7 +302,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Технологическое оборудование для производства крупы</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -376,7 +314,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Аспирационное оборудование</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -388,7 +326,7 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Самотечное оборудование</p>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -400,7 +338,69 @@ const Page6 = () => {
                 >
                   <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
                 </svg>
-                <p>Зерноочистительные комплексы</p>
+                <p>Лабораторное оборудование</p>
+              </div>
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="7"
+                  viewBox="0 0 7 7"
+                  fill="none"
+                >
+                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
+                </svg>
+                <p>Комплексное оснащение лабораторий</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="7"
+                  viewBox="0 0 7 7"
+                  fill="none"
+                >
+                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
+                </svg>
+                <p>Проектирование</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="7"
+                  viewBox="0 0 7 7"
+                  fill="none"
+                >
+                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
+                </svg>
+                <p>Монтаж и наладка</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="7"
+                  viewBox="0 0 7 7"
+                  fill="none"
+                >
+                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
+                </svg>
+                <p>Реконструкции </p>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="7"
+                  viewBox="0 0 7 7"
+                  fill="none"
+                >
+                  <circle cx="3.5" cy="3.5" r="3.5" fill="#FEAD04" />
+                </svg>
+                <p>Сервисное обслуживание</p>
               </div>
             </div>
           </div>
