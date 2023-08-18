@@ -1,4 +1,95 @@
 {
-  "test": "English",
-  "test2": "Hello , I am programmic"
+   "nav": {
+     "l1": "About the company",
+     "l2": "Objects",
+     "l3": "Press Center",
+     "l4": "Video",
+     "l5": "Contacts",
+     "l6": "Complex solutions",
+     "t1": "Our numbers"
+   },
+   "hd": {
+     "t1": "TECHNOLOGIES AND EQUIPMENT",
+     "t2": "for cleaning, processing and quality control of grain",
+     "btn": "Submit request",
+     "t3": "Social"
+   },
+   "s1": {
+     "t1": "Our equipment",
+     "a": "Grain cleaning equipment",
+     "b": "Equipment for the production of cereals",
+     "c": "Laboratory equipment",
+     "d": "Equipment for the production of flour",
+     "e": "Transport and suction equipment",
+     "f": "Gravity flow equipment"
+   },
+   "s2": {
+     "t1": "COMPLETE SOLUTIONS",
+     "a": "Grain cleaning complexes",
+     "b": "Grain factories",
+     "c": "mills",
+     "d": "Complex laboratory equipment",
+     "e": "Sunflower and legume processing",
+     "f": "Cannabis seed processing"
+   },
+   "s3": {
+     "t1": "Services",
+     "a": "Installation",
+     "b": "Service",
+     "c": "Warranty and post-warranty service",
+     "d": "Engineering",
+     "e": "Reconstructions",
+     "f": "Automation"
+   },
+   "s4": {
+     "t1": "Benefits",
+     "a": "Countries where our facilities operate",
+     "b": "Years of development and implementation experience",
+     "c": "Names of manufactured equipment",
+     "d": "Working industries in the world"
+   },
+   "s5": {
+     "t1": "About us",
+     "t2": "The leader of grain cleaning equipment in Ukraine. Our company specializes in the development, production and implementation in the industry of technologies and equipment for grain processing. Today we have original modern technologies and equipment in all major areas of grain cleaning, flour and cereal production, which is confirmed by more than 30 patents in this area. LLC 'OLIS' produces about 200 tons of equipment and has the ability to produce various grain cleaning complexes, mills and cereal workshops from the development stage to commissioning.",
+     "btn": "Download Catalog"
+   },
+   "s6": {
+     "t1": "What countries do we work in",
+     "t2": "The technological level and organization of our production allows us to provide high quality products at convincing prices and supply them to more than 30 countries near and far abroad.",
+     "btn": "Open completed projects map"
+   },
+   "s7": {
+     "t1": "Our partners"
+   },
+   "form": {
+     "t1": "Feedback form",
+     "t2": "Fill out the form and we will contact you",
+     "t3": "Ivan",
+     "t4": "Phone",
+     "btn": "Submit Request"
+   },
+   "footer": {
+     "t1": "© 2021 OLIS LLC. All rights reserved",
+     "t2": "Sitemap",
+     "t3": "Subscribe to newsletter",
+     "t4": "Email",
+     "ul1": {
+       "l1": "Our company",
+       "l2": "How we work",
+       "l3": "Reviews about the company",
+       "l4": "Company news"
+     },
+     "ul2": {
+       "l1": "Press Centre",
+       "l2": "News",
+       "l3": "Articles",
+       "l4": "Exhibitions"
+     },
+     "t5": {
+       "t1": "Contacts",
+       "t2": "Phone",
+       "t3": "Calls from CIS:"
+     },
+     "t6": "Working time"
+   }
 }

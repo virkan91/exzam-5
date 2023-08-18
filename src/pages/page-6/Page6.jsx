@@ -414,7 +414,7 @@ const Page6 = () => {
         </div>
       </section>
 
-      <section className="bg_section">
+      <section className="bg_sec">
         <div className="container"></div>
       </section>
 

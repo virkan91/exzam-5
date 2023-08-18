@@ -40,10 +40,7 @@ const Home = () => {
           </div>
         </div>
         {/* B */}
-        <div className='relative right-[-60px]'>
-          <img src={hd01} alt="" className='h-[549px]' />
-        </div>
-      </section>
+
     </div>
   )
 }
